@@ -1,0 +1,25 @@
+{
+  "name": "example-singleton",
+  "description": "Ejemplo de implementación del patrón Singleton para el curso de Arquitectura de Software",
+  "version": "0.1.0",
+  "main": "./build/index.js",
+  "license": "Apache-2.0",
+  "author": "José Gamaliel Rivera Ibarra <gama.rivera@gmail.com> (https://gamarivera.dev)",
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.14.0"
+  },
+  "scripts": {
+    "start": "node ./build/index.js",
+    "build": "tsc",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "uuid": "8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.10",
+    "@types/uuid": "8.3.4",
+    "typescript": "^4.5.5"
+  }
+}
